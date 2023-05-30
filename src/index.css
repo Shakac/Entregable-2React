@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'firs Sans', sans-serif;
+}
+
+h1, h2 h3 p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+button {
+    border: none;
+}
+
+img {
+    display: block;
+}
