@@ -2,18 +2,23 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'firs Sans', sans-serif;
+    font-family: Source Code Pro,monospace;
+    margin: 0;
 }
+
 
 h1, h2 h3 p, ul {
     margin-top: 0;
     margin-bottom: 0;
+    background-color: salmon;
 }
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding-right: 0;
+    background-color: blue;
 }
 
 input, button {
@@ -22,8 +27,11 @@ input, button {
 
 button {
     border: none;
+    background-color: yellow;
 }
 
 img {
     display: block;
+    background-color: darkorange;
 }
+
