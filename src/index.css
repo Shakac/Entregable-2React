@@ -12,13 +12,13 @@ body {
 h1, h2 h3 p, ul {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: salmon;
+    border-radius: 20px;
+    background-color: aqua;
 }
 
 ul {
     list-style: none;
     padding-right: 0;
-    background-color: blue;
 }
 
 input, button {
@@ -26,12 +26,11 @@ input, button {
 }
 
 button {
-    border: none;
-    background-color: yellow;
+    border-radius: 10px;
+    background-color: wheat;
 }
 
 img {
     display: block;
-    background-color: darkorange;
 }
 
