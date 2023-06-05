@@ -13,12 +13,12 @@ const WeatherCard = ({ weather, temp }) => {
                     <h2 className="weather__subtitle">
                         {weather?.name}, {weather?.sys.country}</h2>
                 <form className="weather__search">
-                    {/* <input id="inputValue" className="weather__search-input" type="text" placeholder="City Name"/>
+                    <input id="inputValue" className="weather__search-input" type="text" placeholder="City Name"/>
                     <button className="weather__search-btn-icon">
                         <i className="bx bx-search-btn-icon">
                             🔎
                         </i>
-                    </button> */}
+                    </button>
                 </form>
             </header>
             <section className="weather__body">
