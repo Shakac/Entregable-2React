@@ -4,19 +4,22 @@
     border-radius: 0.8em;
     width: 80%;
     max-width: 450px;
-    opacity: 60%;
+    opacity: 65%;
 }
 
 .weather__title {
     text-align: center;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 500
 }
 
 .weather__subtitle {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
+    background-color: aqua;
+    border-radius: 0.5em;
+    color: darkkhaki;
 }
 
 .weather__body {
@@ -61,15 +64,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0.5em 1em;
+    padding: 0.4em 1em;
     border-radius: 0.7em; 
     background-color: indigo;
     color: white;
     font-size: 1rem;
-    transition: transform 100ms ease;
+    transition: transform 200ms ease;
 }
 
 .weather__btn:hover {
     background-color: aqua;
     transform: scale(1.08);
 }
+
